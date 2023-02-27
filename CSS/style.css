@@ -32,6 +32,10 @@ h2{
   padding-bottom:50px;
 }
 
+h3{
+  padding: 15px 0;
+}
+
 /*UTILITIS*/
 .padding{
   padding: 0px 200px;
@@ -155,19 +159,43 @@ main .row{
 
 main .largecolumn{
   height: 200px;
-  background-color:#B4D0E7;
   text-align: left;
-  border: 2px solid #E6E8EB;
+  padding: 0 200px;
 }
 
 .columnbig{
-  width: 1050px;
+  width: 1090px;
   border: 2px solid #E6E8EB;
 }
 
 main .columnbig h3{
   display:inline;
 }
+
+.business{
+  height: 700px;
+  background-color: beige;
+}
+
+.business img{
+  float: left;
+  width: 600px;
+  margin-right: 50px;
+}
+
+.business p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.business button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
 
 
 
