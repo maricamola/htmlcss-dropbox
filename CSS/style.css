@@ -36,8 +36,18 @@ h3{
   padding: 15px 0;
 }
 
+ul li{
+  list-style: none;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
 .underline{
   text-decoration: underline;
+}
+
+.grey{
+  color: gray;
 }
 
 /*UTILITIS*/
@@ -48,6 +58,11 @@ h3{
 .margin{
   margin: 20px 0px;
   margin-right:40px;
+}
+
+ul li i{
+  color: blue;
+  font-size: 20px;
 }
 
 /*HEADER-MENU*/
@@ -152,6 +167,7 @@ main .column{
   background-color: azure;
   border: 1px solid #E6E8EB;
   height: 600px;
+  padding: 0 20px;
 }
 
 
