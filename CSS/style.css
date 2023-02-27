@@ -29,11 +29,15 @@ h1 {
 h2{
   font-size:40px;
   font-weight: bold;
-  padding-bottom:50px;
+  padding-bottom:30px;
 }
 
 h3{
   padding: 15px 0;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 /*UTILITIS*/
@@ -41,6 +45,10 @@ h3{
   padding: 0px 200px;
 }
 
+.margin{
+  margin: 20px 0px;
+  margin-right:40px;
+}
 
 /*HEADER-MENU*/
 
@@ -140,12 +148,10 @@ main .grid{
 
 main .column{
   float: left;
-  width: 350px;
+  width: 300px;
   background-color: azure;
   border: 1px solid #E6E8EB;
   height: 600px;
-  margin: 20px 0px;
-  margin-right:20px;
 }
 
 
@@ -172,28 +178,53 @@ main .columnbig h3{
   display:inline;
 }
 
-.business{
-  height: 700px;
-  background-color: beige;
+/*PARTNER DROPBOX*/
+.partner{
+  height: 600px;
 }
 
-.business img{
+.partner img{
   float: left;
   width: 600px;
   margin-right: 50px;
 }
 
-.business p{
+.partner p{
     line-height: 25px;
     letter-spacing: 1px;
     padding: 10px 0;
 }
 
-.business button{
+.partner button{
   background-color: white;
   color: black;
   border: 1px solid black;
 }
+
+/*CARD DROPBOX BUSINESS*/
+main .business{
+  height: 1100px;
+}
+
+.dropboxcard{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 300px;
+  float: left;
+}
+
+.card img{
+  width: 100%;
+}
+
+.dropboxcard h2{
+  padding:0 px;
+}
+
+
 
 
 
