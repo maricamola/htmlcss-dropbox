@@ -10,17 +10,27 @@ body{
   font-size: 14px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   min-width: 500px
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
 
 /*HEADER-MENU*/
 
 header{
-  height: 60px;
-  background-color:bisque;
+  height: 70px;
+  background-color: white;
 }
 
 header{
@@ -28,6 +38,14 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
 }
 
 header nav ul{
@@ -63,21 +81,41 @@ button{
 
 /*MAIN*/
 
+
 /*START JUMBOTRON*/
 
 main .jumbotron{
   position: relative;
-  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 700px;
   background-color:#B4D0E7;
-  border: 1px solid black;
+  padding: 150px 160px;
 }
 
 main .jumbo img{
   position: absolute;
+  display: flex;
+  flex-wrap:wrap;
   width: 700px;
-  right: 100px;
-  bottom: -60px
+  right: 250px;
+  bottom: -60px;
+  min-width: 400px;
 }
+
+main .paragraph{
+  width: 330px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.jumbobutton{
+  margin-bottom: 15px;
+}
+
+
+
+
 
 
 
