@@ -1,3 +1,4 @@
+/*GENERAL*/
 *{
   margin: 0;
   padding: 0;
@@ -12,10 +13,13 @@ body{
 .container{
   width: 100%;
   max-width: 1400px;
+  min-width: 500px
 }
 
+/*HEADER-MENU*/
+
 header{
-  height: 70px;
+  height: 60px;
   background-color:bisque;
 }
 
@@ -30,6 +34,7 @@ header nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  align-items: center;
 }
 
 nav ul li a{
@@ -48,6 +53,31 @@ img{
   vertical-align: middle;
 }
 
+button{
+  padding: 5px 15px;
+  background-color: #0061FF;
+  color: white;
+  margin-right: 15px;
+  border: none;
+}
+
+/*MAIN*/
+
+/*START JUMBOTRON*/
+
+main .jumbotron{
+  position: relative;
+  height: 600px;
+  background-color:#B4D0E7;
+  border: 1px solid black;
+}
+
+main .jumbo img{
+  position: absolute;
+  width: 700px;
+  right: 100px;
+  bottom: -60px
+}
 
 
 
