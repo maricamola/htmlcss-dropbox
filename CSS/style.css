@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -25,6 +25,18 @@ h1 {
   font-weight: bold;
   padding-bottom: 50px;
 }
+
+h2{
+  font-size:40px;
+  font-weight: bold;
+  padding-bottom:50px;
+}
+
+/*UTILITIS*/
+.padding{
+  padding: 0px 200px;
+}
+
 
 /*HEADER-MENU*/
 
@@ -81,7 +93,6 @@ button{
 
 /*MAIN*/
 
-
 /*START JUMBOTRON*/
 
 main .jumbotron{
@@ -112,6 +123,53 @@ main .paragraph{
 .jumbobutton{
   margin-bottom: 15px;
 }
+
+/*MAIN COLUMNS*/
+
+main .grid{
+  background-color: bisque;
+  height: 1000px;
+  padding: 150px 200px;
+  text-align: left;
+}
+
+
+main .column{
+  float: left;
+  width: 350px;
+  background-color: azure;
+  border: 1px solid #E6E8EB;
+  height: 600px;
+  margin: 20px 0px;
+  margin-right:20px;
+}
+
+
+main .row{
+  text-align: center;
+  border-bottom: 1px solid #E6E8EB;
+  padding: 10px 10px;
+}
+
+/*LARGE COLUMN*/
+
+main .largecolumn{
+  height: 200px;
+  background-color:#B4D0E7;
+  text-align: left;
+  border: 2px solid #E6E8EB;
+}
+
+.columnbig{
+  width: 1050px;
+  border: 2px solid #E6E8EB;
+}
+
+main .columnbig h3{
+  display:inline;
+}
+
+
 
 
 
