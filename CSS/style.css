@@ -29,7 +29,7 @@ h1 {
 h2{
   font-size:40px;
   font-weight: bold;
-  padding-bottom:30px;
+  padding-bottom: 20px;
 }
 
 h3{
@@ -159,6 +159,12 @@ main .paragraph{
   margin-bottom: 15px;
 }
 
+.arrow-down{
+  font-size: 40px;
+  text-align: left;
+  padding-top: 30px;
+}
+
 /*MAIN COLUMNS*/
 
 main .grid{
@@ -168,7 +174,8 @@ main .grid{
 }
 
 .gridflex{
-  float: left;
+  display: flex;
+  flex-direction: row;
 }
 
 .dash{
@@ -176,11 +183,8 @@ main .grid{
 }
 
 main .column{
-  float: left;
-  width: 300px;
   border: 2px solid #E6E8EB;
   height: 700px;
-  padding: 0 20px;
 }
 
 main .row{
@@ -276,8 +280,8 @@ main .business{
 }
 
 .card{
-  width: 300px;
-  float: left;
+  width:calc(100% / 3);
+  padding: 0 60px;
 }
 
 .card img{
@@ -291,15 +295,19 @@ main .business{
 /*DESIGNIT BOX*/
 main .designit{
   height: 700px;
-  background-color:azure;
 }
 
-.contentbusiness{
+.blocco{
+  display: flex;
+  flex-direction: row;
+  padding-top:20px;
+}
+
+.side{
   display: flex;
   flex-wrap: wrap;
   width: 400px;
   height: 400px;
-  background-color:#0061FF;
 }
 
 .square{
@@ -310,27 +318,29 @@ main .designit{
   align-content: center;
   width: 200px;
   height: 200px;
-  background-color: #B4D0E7;
 }
 
-.secondcontent{
+.contentcenter{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 700px;
   height: 400px;
   background-color:bisque;
 }
 
+.blocco .square img{
+  width: 50%;
+}
 
+.side-left .square-1{
+  background-color: #A2D39B;
+}
 
-
-
-
-
-
-
+.side-left .square-2{
+  background-color: #A2D39B;
+}
 
 /*
 
