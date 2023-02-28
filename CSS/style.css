@@ -17,7 +17,7 @@ html{
 .container{
   width: 100%;
   max-width: 1600px;
-  min-width: 500px;
+  min-width: 600px;
 }
 
 h1 {
@@ -266,6 +266,8 @@ main .columnbig h3{
 /*CARD DROPBOX BUSINESS*/
 main .business{
   height: 1100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .dropboxcard{
@@ -289,7 +291,7 @@ main .business{
 /*DESIGNIT BOX*/
 main .designit{
   height: 700px;
-  background-color: antiquewhite;
+  background-color:bisque;
 }
 
 .flex-container{
@@ -311,6 +313,18 @@ main .designit{
 }
 .flex-container .flex-right{
   flex-grow: 1;
+}
+
+/*REQUESTS*/
+.requests{
+  background-color: antiquewhite;
+  height: 300px;
+}
+
+/*FOOTER*/
+footer{
+  background-color: grey;
+  height: 150px;
 }
 
 
