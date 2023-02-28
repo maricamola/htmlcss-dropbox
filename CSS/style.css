@@ -291,42 +291,63 @@ main .business{
 /*DESIGNIT BOX*/
 main .designit{
   height: 700px;
-  background-color:bisque;
+  background-color:azure;
 }
 
-.flex-container{
+.contentbusiness{
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
-  width:100%;
+  width: 400px;
   height: 400px;
   background-color:#0061FF;
 }
 
-.flex-container .flex-left{
-  flex-grow: 1;
+.square{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: #B4D0E7;
 }
-.flex-container .flex-center{
-  flex-basis: 600px;
-  flex-grow: 0;
-  background-color: aliceblue;
+
+.secondcontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color:bisque;
 }
-.flex-container .flex-right{
-  flex-grow: 1;
-}
+
+
+
+
+
+
+
+
+
+
+/*
 
 /*REQUESTS*/
 .requests{
   background-color: antiquewhite;
-  height: 300px;
+  height: 600px;
 }
 
 /*FOOTER*/
 footer{
   background-color: grey;
-  height: 150px;
+  height: 300px;
 }
 
+*/
+<
 
 
 
