@@ -20,6 +20,11 @@ html{
   min-width: 600px;
 }
 
+hr{
+  width: 40px;
+  margin: 15px 0;
+}
+
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -185,6 +190,7 @@ main .grid{
 main .column{
   border: 2px solid #E6E8EB;
   height: 700px;
+  padding: 0 30px;
 }
 
 main .row{
@@ -225,9 +231,10 @@ main .row{
 /*LARGE COLUMN*/
 
 main .largecolumn{
+  display: flex;
+  justify-content: space-evenly;
   height: 200px;
-  text-align: left;
-  padding: 0 200px;
+  margin-bottom: 50px;
 }
 
 .columnbig{
@@ -269,7 +276,7 @@ main .columnbig h3{
 
 /*CARD DROPBOX BUSINESS*/
 main .business{
-  height: 1100px;
+  height: 900px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -294,7 +301,7 @@ main .business{
 
 /*DESIGNIT BOX*/
 main .designit{
-  height: 700px;
+  height: 555px;
 }
 
 .blocco{
@@ -323,11 +330,17 @@ main .designit{
 .contentcenter{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   width: 700px;
   height: 400px;
-  background-color:bisque;
+  background-color:#F5F5F5;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  padding: 30px 30px;
+}
+
+.contentcenter img{
+  padding: 20px 0;
 }
 
 .blocco .square img{
@@ -342,12 +355,33 @@ main .designit{
   background-color: #A2D39B;
 }
 
-/*
+.designitbottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  background-color: #B4D0E7;
+  padding: 0 200px ;
+}
+
+.designitbottom h2{
+  color: #61082C;
+}
+.designitbottom button{
+  background-color: white;
+  color: black;
+}
 
 /*REQUESTS*/
 .requests{
-  background-color: antiquewhite;
-  height: 600px;
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.requests ul li{
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /*FOOTER*/
@@ -356,8 +390,6 @@ footer{
   height: 300px;
 }
 
-*/
-<
 
 
 
