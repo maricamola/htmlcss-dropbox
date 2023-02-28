@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
@@ -131,20 +131,19 @@ main .jumbotron{
   padding: 150px 160px;
 }
 
-main .jumbo img{
+.main .text{
   position: absolute;
-  display: flex;
-  flex-wrap:wrap;
-  width: 700px;
-  right: 250px;
-  bottom: -60px;
-  min-width: 400px;
 }
 
 main .paragraph{
   width: 330px;
   text-align: left;
   padding-bottom: 20px;
+}
+
+.jumbo img{
+  float: right;
+  width: 800px;
 }
 
 .jumbobutton{
@@ -154,27 +153,60 @@ main .paragraph{
 /*MAIN COLUMNS*/
 
 main .grid{
-  background-color: bisque;
   height: 1000px;
   padding: 150px 200px;
   text-align: left;
 }
 
+.gridflex{
+  float: left;
+}
+
+.dash{
+  color: black;
+}
 
 main .column{
   float: left;
   width: 300px;
-  background-color: azure;
-  border: 1px solid #E6E8EB;
-  height: 600px;
+  border: 2px solid #E6E8EB;
+  height: 700px;
   padding: 0 20px;
 }
-
 
 main .row{
   text-align: center;
   border-bottom: 1px solid #E6E8EB;
   padding: 10px 10px;
+}
+
+.gridflex h3{
+  font-size: 24px;
+}
+
+.gridflex .utente::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f007";
+}
+
+.gridflex .folder::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f07b";
+}
+.gridflex .pencil::before{
+  font-family: "Font Awesome 5 Free";
+  content:"\f044";
+}
+
+.checklist ul li::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  color: blue;
+  font-size: 16px;
+}
+
+.circle .fa-solid{
+  color: blue;
 }
 
 /*LARGE COLUMN*/
@@ -186,7 +218,7 @@ main .largecolumn{
 }
 
 .columnbig{
-  width: 1090px;
+  width: 980px;
   border: 2px solid #E6E8EB;
 }
 
