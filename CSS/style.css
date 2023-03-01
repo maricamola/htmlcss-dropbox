@@ -334,9 +334,7 @@ main .designit{
   width: 700px;
   height: 400px;
   background-color:#F5F5F5;
-  overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
+  overflow-y: auto;
   padding: 30px 30px;
 }
 
@@ -361,7 +359,7 @@ main .designit{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  height: 250px;
   background-color: #B4D0E7;
   padding: 0 200px ;
 }
@@ -378,7 +376,7 @@ main .designit{
 .accordion{
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 450px;
   justify-content: center;
 }
 
@@ -389,21 +387,59 @@ main .designit{
 	cursor: pointer;
 	border-top: 1px solid #E6E8EB;
 	padding: 20px 0;
+  padding-right: 50px;
+  transition: 0.4;
+  overflow: hidden;
 }
 
 .accordiontitle h2{
   padding: 20px 0;
   width: 100vh;
 }
+.panel {
+  display: none;
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+}
 
-
-
+.faq:hover{
+  background-color: #ccc;
+}
 
 /*FOOTER*/
 footer{
-  background-color: grey;
-  height: 300px;
+  background-color: #000000;
+  height: 350px;
+  padding: 30px 100px;
 }
+
+footer .top{
+  display: flex;
+  height: 70%;
+  color: #F9F9F9
+}
+
+footer .top .col-menu{
+  width: calc(100% / 5);
+}
+
+footer .col-menu ul li a{
+  text-decoration: none;
+  color:#F9F9F9;
+  font: 12px;
+}
+
+footer .col-menu ul li{
+  margin: 10px 0;
+}
+
+footer .bottom{
+  background-color: #c7d7f3;
+  height: 20%;
+}
+
+
 
 
 
