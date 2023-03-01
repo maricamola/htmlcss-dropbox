@@ -189,6 +189,7 @@ main .grid{
 }
 
 main .column{
+  width: calc(100% / 3);
   border: 2px solid #E6E8EB;
   height: 700px;
   padding: 0 30px;
@@ -233,13 +234,14 @@ main .row{
 
 main .largecolumn{
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-width: 600px;
   height: 200px;
   margin-bottom: 50px;
 }
 
 .columnbig{
-  width: 980px;
+  width: 100%;
   border: 2px solid #E6E8EB;
   padding: 0px 20px;
 }
@@ -277,7 +279,7 @@ main .columnbig h3{
 
 /*CARD DROPBOX BUSINESS*/
 main .business{
-  height: 900px;
+  height: 1000px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -289,7 +291,8 @@ main .business{
 
 .card{
   width:calc(100% / 3);
-  padding: 0 60px;
+  padding-right:60px;
+  padding-top: 20px;
 }
 
 .card img{
@@ -346,13 +349,8 @@ main .designit{
   width: 50%;
 }
 
-.side-left .square-left-1{
-  background-color: #A2D39B;
-  border: 2px red;
-}
-
-.side-left .square-2{
-  background-color: #A2D39B;
+.blocco .side-left .square-left-1{
+  background-color: #0061FF;
 }
 
 .designitbottom{
@@ -435,8 +433,22 @@ footer .col-menu ul li{
 }
 
 footer .bottom{
-  background-color: #c7d7f3;
   height: 20%;
+}
+
+footer .bottom hr{
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+footer .language{
+  color: gray;
+  padding-top:50px ;
+}
+
+footer .language::before {
+  font-family: "Font Awesome 5 Free";
+  content:"\f2b4";
 }
 
 
