@@ -79,6 +79,7 @@ ul li i{
 header{
   height: 70px;
   background-color: white;
+  border: 1px solid #E6E8EB;
 }
 
 header{
@@ -323,8 +324,8 @@ main .designit{
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 200px;
-  height: 200px;
+  width: calc(100% / 2);
+  min-height: 10px;
 }
 
 .contentcenter{
@@ -347,8 +348,9 @@ main .designit{
   width: 50%;
 }
 
-.side-left .square-1{
+.side-left .square-left-1{
   background-color: #A2D39B;
+  border: 2px red;
 }
 
 .side-left .square-2{
@@ -372,17 +374,30 @@ main .designit{
   color: black;
 }
 
-/*REQUESTS*/
-.requests{
+/*FAQ*/
+.accordion{
   display: flex;
-  align-items: center;
+  flex-direction: column;
   height: 500px;
+  justify-content: center;
 }
 
-.requests ul li{
+.accordion .faq{
+  display: flex;
+  justify-content: space-between;
   font-size: 18px;
-  font-weight: bold;
+	cursor: pointer;
+	border-top: 1px solid #E6E8EB;
+	padding: 20px 0;
 }
+
+.accordiontitle h2{
+  padding: 20px 0;
+  width: 100vh;
+}
+
+
+
 
 /*FOOTER*/
 footer{
