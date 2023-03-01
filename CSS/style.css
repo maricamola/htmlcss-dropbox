@@ -113,6 +113,7 @@ nav ul li a{
 
 nav ul li a:hover{
   text-decoration: underline;
+  text-underline-offset: 30px;
 }
 
 img{
@@ -332,8 +333,6 @@ main .designit{
 }
 
 .contentcenter{
-  display: flex;
-  flex-wrap: wrap;
   width: 700px;
   height: 400px;
   background-color:#F5F5F5;
@@ -341,17 +340,48 @@ main .designit{
   padding: 30px 30px;
 }
 
+.contentcenter p{
+  padding-top: 15px;
+}
+
 .contentcenter img{
   padding: 20px 0;
 }
 
-.blocco .square img{
-  width: 50%;
+/*SIDE LEFT*/
+.blocco .left .square:nth-child(1) {
+  background-color: #A2D39B;
 }
 
-.blocco .side-left .square-left-1{
-  background-color: #0061FF;
+.blocco .left .square:nth-child(2) {
+  background-color: #61082C;
 }
+
+.blocco .left .square:nth-child(3) {
+  background-color: #1D93CE;
+}
+
+.blocco .left .square:nth-child(4) {
+  background-color: #F91C1D;
+}
+
+/*SIDE RIGHT*/
+.blocco .right .square:nth-child(1) {
+  background-color: #D5021F;
+}
+
+.blocco .right .square:nth-child(2) {
+  background-color: #B4D0E7;
+}
+
+.blocco .right .square:nth-child(3) {
+  background-color: #0D2481;
+}
+
+.blocco .right .square:nth-child(4) {
+  background-color: #FED830;
+}
+
 
 .designitbottom{
   display: flex;
