@@ -348,6 +348,10 @@ main .designit{
   padding: 20px 0;
 }
 
+.blocco .side .square img{
+  filter: invert(1);
+}
+
 /*SIDE LEFT*/
 .blocco .left .square:nth-child(1) {
   background-color: #A2D39B;
@@ -382,6 +386,9 @@ main .designit{
   background-color: #FED830;
 }
 
+.blocco .side .square:hover{
+  border: 5px solid beige;
+}
 
 .designitbottom{
   display: flex;
