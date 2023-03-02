@@ -16,7 +16,6 @@ html{
 
 .container{
   width: 100%;
-  max-width: 1600px;
   min-width: 600px;
 }
 
@@ -307,6 +306,7 @@ main .business{
 /*DESIGNIT BOX*/
 main .designit{
   height: 555px;
+  margin-top: 100px;
 }
 
 .blocco{
@@ -318,7 +318,7 @@ main .designit{
 .side{
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 40%;
   height: 400px;
 }
 
@@ -333,7 +333,7 @@ main .designit{
 }
 
 .contentcenter{
-  width: 700px;
+  width: 60%;
   height: 400px;
   background-color:#F5F5F5;
   overflow-y: auto;
@@ -463,6 +463,10 @@ footer .col-menu ul li a{
   text-decoration: none;
   color:#F9F9F9;
   font: 12px;
+}
+
+footer .col-menu ul li a:hover{
+  text-decoration: underline;
 }
 
 footer .col-menu ul li{
